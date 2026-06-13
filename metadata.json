@@ -1,0 +1,6 @@
+{
+  "name": "Espelho Mental",
+  "description": "Seu IA de espelho mental pessoal e espelho honesto para autoconhecimento profundo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
