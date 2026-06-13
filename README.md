@@ -1,7 +1,7 @@
 # 🪞 Espelho Mental — IA Gêmea Pessoal & Autoconhecimento Profundo
 
 <p align="center">
-  <img src="assets/banner.png" alt="Espelho Mental Banner" width="100%" style="border-radius: 16px;" onerror="this.style.display='none'"/>
+  
 </p>
 
 <p align="center">
