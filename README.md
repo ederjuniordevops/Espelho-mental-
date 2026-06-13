@@ -75,38 +75,6 @@ O aplicativo foi desenvolvido com boas práticas modernas do ecossistema Android
 
 ---
 
-## ⚙️ Como Executar o Projeto Localmente
-
-### Pré-requisitos
-*   **Android Studio** instalado.
-*   Dispositivo Android físico ou Emulador configurado com API 29+.
-
-### Passo a Passo
-
-1.  **Clonar o Repositório:**
-    ```bash
-    git clone https://github.com/SEU_USUARIO/espelho-mental.git
-    cd espelho-mental
-    ```
-
-2.  **Configurar Chaves de API:**
-    Crie um arquivo chamado `.env` no diretório raiz do projeto (como mostrado em `.env.example`) e configure suas chaves do Gemini e do Text-to-Speech do Google Cloud:
-    ```env
-    GEMINI_API_KEY="SUA_CHAVE_AQUI"
-    GOOGLE_TTS_API_KEY="SUA_CHAVE_AQUI"
-    ```
-
-3.  **Remover Assinatura de Desenvolvimento Local:**
-    No arquivo `app/build.gradle.kts`, se planeja compilar localmente fora dos servidores assinados, você pode habilitar o build padrão removendo a seguinte linha no bloco de `signingConfigs` caso encontre conflito:
-    ```kotlin
-    signingConfig = signingConfigs.getByName("debugConfig")
-    ```
-
-4.  **Compilar e Rodar:**
-    *   No Android Studio, clique em **File > Open** e selecione a pasta raiz de `espelho-mental`.
-    *   Aguarde o Gradle sincronizar todas as dependências do catálogo de versões.
-    *   Selecione seu emulador ou dispositivo físico e clique no botão **Run (Play)** `(Shift + F10)`.
-
 ---
 
 ## 🔒 Privacidade e Segurança de Dados
